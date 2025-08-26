@@ -1,3 +1,7 @@
+* {
+box-sizing: border-box;
+}
+
 body {
     text-align: center;
 }
@@ -12,4 +16,10 @@ button {
     border: 1px solid grey;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.changeBy {
+    height: 2rem;
+    width: 5rem;
+    font-size: 1rem; 
 }
