@@ -1,0 +1,80 @@
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.game-instructions{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+.formgroup{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formgroup label{
+    font-weight: bold;
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+
+.formgroup input{
+    padding: 8px;
+    width: 60px;
+    text-align: center;
+}
+.buttonGroup{
+    margin-bottom: 20px;
+}
+.buttonGroup button{
+    padding: 10px 15px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+}
+#newGame{
+    background-color: #f44336;
+}
+.gamefeedback p{
+    font-size: 16px;
+    color: #555;
+    min-height: 40px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+#message{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    resize: none;
+}
+#message:focus{
+    outline: none;
+    border-color: #4CAF50;
+}
+
+#newGame:disabled {
+    cursor: not-allowed;
+    background-color: #ccc;
+    color: #888;
+    opacity: 0.7;
+}
